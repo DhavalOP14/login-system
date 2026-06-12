@@ -1,0 +1,63 @@
+body {
+  height: 90vh;
+  border: 0.2rem solid black;
+}
+
+.login,
+.register {
+  background-color: aqua;
+  width: 40%;
+  height: 50%;
+  align-items: center;
+  display: flexbox;
+  flex-wrap: nowrap;
+  margin: auto;
+  margin-top: 15%;
+  border-radius: 1rem;
+  justify-content: center;
+  border: 0.2rem solid black;
+  color: black;
+}
+.login h1,
+.register h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+.username,
+.password,
+.email {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: rgb(46, 6, 38);
+}
+.username input,
+.password input,
+.email input {
+  border-radius: 0.2rem;
+}
+
+.submit button,
+.profile,
+.logout {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  background-color: chartreuse;
+  margin-top: 20px;
+}
+.btn:hover,
+.profile:hover,
+.logout:hover {
+  background-color: rgb(214, 10, 166);
+  cursor: pointer;
+  opacity: 50%;
+}
+.email {
+  margin-left: 25px;
+}
